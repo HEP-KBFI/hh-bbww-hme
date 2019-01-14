@@ -1,0 +1,20 @@
+<library name="HhhAnalysisCutFlowAnalyzer_plugins" file="*.cc">
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="FWCore/PluginManager"/>
+<use   name="FWCore/ServiceRegistry"/>
+<use   name="FWCore/Utilities"/>
+<use   name="CommonTools/UtilAlgos"/>
+<use   name="DataFormats/DetId"/>
+<use   name="DataFormats/HepMCCandidate"/>
+<use   name="DataFormats/PatCandidates"/>
+<use   name="DataFormats/SiPixelDetId"/>
+<use   name="DataFormats/SiStripDetId"/>
+<use   name="SimDataFormats/GeneratorProducts"/>
+<use   name="HhhAnalysis/DataFormats"/>
+<use   name="HhhAnalysis/AnalysisTools"/>
+<use   name="HhhAnalysis/CutFlowAnalyzer"/>
+<use   name="hhAnalysis/Heavymassestimator"/>
+<use   name="root"/>
+<flags EDM_PLUGIN="1" />
+</library>
